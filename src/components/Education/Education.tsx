@@ -12,7 +12,7 @@ const Education: React.FC = () => {
       degree: 'B.Sc. Computer Science',
       institution: 'Dr. Ram Manohar Lohia Avadh University, Ayodhya',
       date: 'Sept 2021 – Sept 2024',
-      description: 'Foundation in computer science principles and software development.'
+      description: 'Score: 75.93%'
     },
     {
       degree: 'Intermediate (Class XII)',
