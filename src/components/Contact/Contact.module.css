@@ -1,0 +1,129 @@
+.contact {
+  max-width: 800px;
+  text-align: center;
+  padding-bottom: 150px;
+}
+
+.content p {
+  color: var(--text-secondary);
+  margin-bottom: 50px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contactCard {
+  background-color: var(--card-bg);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 20px 30px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  max-width: 500px;
+  margin: 0 auto 50px;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.contactCard:hover {
+  border-color: var(--primary-color);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px -15px rgba(0, 168, 204, 0.3);
+}
+
+.iconWrapper {
+  background-color: rgba(0, 168, 204, 0.1);
+  padding: 12px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gmailIcon {
+  width: 28px;
+  height: 28px;
+  color: var(--primary-color);
+}
+
+.emailInfo {
+  flex: 1;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-secondary);
+  margin-bottom: 4px;
+}
+
+.emailLink {
+  font-size: clamp(0.9rem, 3vw, 1.2rem);
+  color: #fff;
+  font-weight: 600;
+  font-family: monospace;
+}
+
+.copyBtn {
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.copyBtn:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: var(--primary-color);
+}
+
+.copyIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.socialLink {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.socialLink:hover {
+  color: var(--primary-color);
+}
+
+.socialIcon {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 500px) {
+  .contactCard {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .emailInfo {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+}
