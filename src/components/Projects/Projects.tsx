@@ -22,7 +22,7 @@ const Projects: React.FC = () => {
         'Designed and implemented a relational database schema to manage students, companies, job postings, and applications.',
         'Built RESTful APIs with Flask to support job posting, application tracking, and user analytics.'
       ],
-      tech: ['Vue.js', 'Flask', 'SQLAlchemy', 'PostgreSQL', 'Bootstrap'],
+      tech: ['Vue.js', 'Flask API', 'SQLAlchemy', 'PostgreSQL', 'Redis', 'Celery', 'Bootstrap'],
       github: 'https://github.com/sarthak-gupta096/Placement_Portal_Application-IITMBS-.git',
       linkedin: 'https://www.linkedin.com/posts/sarthak-gupta-4b5b1921b_iitmbs-datascience-systemarchitecture-ugcPost-7459953901723787264-lAqg/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADeERIkBiK7jrFjVZxXIqIJfkcEsD8jiFgA'
     },
@@ -35,7 +35,7 @@ const Projects: React.FC = () => {
         'Engineered a dynamic search and filtering system using SQLAlchemy.'
       ],
       tech: ['Flask', 'SQLAlchemy', 'SQLite', 'Bootstrap', 'Chart.js'],
-      github: 'https://github.com',
+      github: 'https://github.com/sarthak-gupta096/A-Z-Household-Management-Application-IITMBS.git',
       linkedin: 'https://www.linkedin.com/posts/sarthak-gupta-4b5b1921b_webdevelopment-iitmadras-project-activity-7277390940577640449-TvG3?utm_source=share&utm_medium=member_desktop&rcm=ACoAADeERIkBiK7jrFjVZxXIqIJfkcEsD8jiFgA'
     },
     {
@@ -47,7 +47,7 @@ const Projects: React.FC = () => {
         'Designed a multi-page Power BI dashboard to surface enrolment trends and demographic patterns.'
       ],
       tech: ['Power BI', 'DAX', 'Power Query', 'ETL'],
-      github: 'https://github.com',
+      github: 'https://github.com/sarthak-gupta096/UIDAI-Data-Hackathon-2026-Biometric-Analytics-Dashboard.git',
       linkedin: 'https://www.linkedin.com/posts/sarthak-gupta-4b5b1921b_uidaihackathon-bigdata-datadrishti-activity-7435571589355720704-V28M?utm_source=share&utm_medium=member_desktop&rcm=ACoAADeERIkBiK7jrFjVZxXIqIJfkcEsD8jiFgA'
     },
     {
@@ -58,8 +58,8 @@ const Projects: React.FC = () => {
         'Built an interactive Power BI dashboard with data modeling, DAX calculations, and custom visuals to surface KPIs such as pass rates and score distributions.',
         'Enabled drill-down filtering by demographic and academic variables to support data-driven decision-making for stakeholders.'
       ],
-      tech: ['Power BI', 'DAX', 'Data Modeling', 'KPI Reporting'],
-      github: 'https://github.com',
+      tech: ['Power BI', 'DAX', 'MS Excel', 'Data Modeling', 'KPI Reporting'],
+      github: '',
       linkedin: 'https://www.linkedin.com/posts/sarthak-gupta-4b5b1921b_powerbi-datavisualization-learningjourney-activity-7361232770913693696-Za_R?utm_source=share&utm_medium=member_desktop&rcm=ACoAADeERIkBiK7jrFjVZxXIqIJfkcEsD8jiFgA'
     }
   ];
